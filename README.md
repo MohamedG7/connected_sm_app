@@ -1,0 +1,1 @@
+# connected_sm_app
