@@ -1,7 +1,10 @@
-export type db = {
-    isConnected: boolean,
-    dbUri: string,
-    dbName: string,
-    useNewUrlParser: boolean,
-    useUnifiedTopology: boolean,
+export type SocketUser = {
+    userId: string,
+    socketId: any
+};
+
+export type SocketMessage = {
+    senderId: string,
+    receiverId: string,
+    text: string
 };
